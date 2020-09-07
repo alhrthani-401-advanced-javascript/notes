@@ -2,7 +2,7 @@
 ## How do I install the app or library?
 npm install notes
 ## How do I test the app or library?
-<filename> -action <note>
+`filename -action note`  
 action can be a or add for adding
 
 ## For Applications:
