@@ -1,4 +1,5 @@
 const Note = require("../lib/notes");
+require('@code-fellows/supergoose');
 
 jest.spyOn(global.console, 'log');
 jest.spyOn(global.console, 'error');

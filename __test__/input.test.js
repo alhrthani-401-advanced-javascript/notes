@@ -1,8 +1,10 @@
 const minimist = require("minimist");
+const Input = require("../lib/input");
+require('@code-fellows/supergoose');
 
+jest.spyOn(global.console, 'log');
 jest.spyOn(global.console, 'error');
 
-const Input = require("../lib/input");
 
 jest.mock("minimist");
 

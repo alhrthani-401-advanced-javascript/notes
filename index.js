@@ -1,4 +1,4 @@
-const Note = require('./lib/notes');
+const NoteClass = require('./lib/notes');
 const Input = require('./lib/input');
 const mongoose = require("mongoose");
 
@@ -22,7 +22,7 @@ if (input.isValid()) {
     const payload = input.getPayload();
     console.log('payload: ', payload);
 
-    const inputNote = new Note();
+    const inputNote = new NoteClass();
     inputNote.execute(action, payload);
 } else {
     console.log('input is Invalid')
